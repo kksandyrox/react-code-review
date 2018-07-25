@@ -6,7 +6,7 @@ var path = require('path');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
-mongoose.connect('mongodb://localhost:27017/2wayview-api', {useNewUrlParser:true});
+mongoose.connect('mongodb://localhost:27017/some-api', {useNewUrlParser:true});
 var db = mongoose.connection;
 
 db.once("open", function() {
